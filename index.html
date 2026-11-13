@@ -20,27 +20,83 @@ Select ONE Additional Feature to Add
   <title>Unit 4 Project</title>
   <meta charset="utf-8">
   <style>
+      .Title {
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+    }
+
+    .Description {
+font-family:'Times New Roman', Times, serif;
+    }
+
+ #Food {
+background-color: #3f240b;
+  color: #000000;
+  padding: 20px 40px;            
+}
+        
+ #Park {
+background-color: #044b19;
+  color: #000000;
+  padding: 20px 40px;  
+}
+        
+ #Music {
+background-color: #e778b9;
+  color: #000000;
+  padding: 20px 40px;              
+}
+
+div {
+  width: 80%;
+  height: 100%;
+  background: url(https://www.cmycubes.com/cdn/shop/articles/sebastien-gabriel--imlv9jlb24-unsplash-1_bffe3828-a0a8-48de-8480-9f9a9c2530ca.jpg?v=1790571398) 50% 0 no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 
   </style>
 </head>
 <body>
 
-  <h1>My Unofficial Local Guide to [~~~]</h1>
-  
-  <h3>Content Element 1</h3>
-  <hr>
-  <p>About Content Element #1</p>
-  <br><br>
+  <h1><div>My Unofficial Local Guide to Sunset Park</div></h1>
 
-  <h3>Content Element 2</h3>
+  <p id="Food">
+  <h3 class="Title">Content Element 1 - Food</h3>
   <hr>
-  <p>About Content Element #2</p>
-  <br><br>
+  <img src="https://c8.alamy.com/comp/2DMCF5P/tacos-el-bronco-4324-4th-ave-brooklyn-new-york-nyc-storefront-photo-of-a-mexican-restaurant-in-the-sunset-park-neighborhood-2DMCF5P.jpg" alt="Food Pic" width="300">
+  <p class="Description">About Content Element #1 - </p>
 
-  <h3>Content Element 3</h3>
+
+  <ul>
+    <li>Tacos El Brancos</li>
+    <li>Cafe Nube</li>
+    <li>Angelito's Bakery</li>
+    <li>Best Deli spots in NYC</li>
+  </ul>
+
+
+  </p><br><br>
+
+  <p id="Park">
+  <h3 class="Title">Content Element 2 - Park</h3>
   <hr>
-  <p>About Content Element #3</p>
-  <br><br>
+  <img src="https://www.nycgovparks.org/photo_gallery/full_size/24918.jpg" alt="Park Pic" width="300">
+  <p class="Discription">About Content Element #2 - </p>
+  </p><br><br>
+ 
+
+  <p id="Music">
+  <h3 class="Title">Content Element 3 - Music</h3>
+  <hr>
+  <img src="" alt="Music Pic" width="300">
+  <p class="Discription">About Content Element #3 - </p>
+  </p><br><br>
+
 
 </body>
 </html>
